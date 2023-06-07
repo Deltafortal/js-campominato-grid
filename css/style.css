@@ -68,14 +68,15 @@ main {
     width: 100px;
     height: 100px;
     border: 1px solid #2b2d42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-
-.active {
-    display: block;
+.clicked {
+    background-color: #219ebc;
 }
-
 
 /* Footer */
 
