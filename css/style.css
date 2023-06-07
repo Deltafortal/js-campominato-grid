@@ -56,20 +56,13 @@ main {
     align-items: center;
 }
 
-.box {
-    height: 1050px;
-    width: 1050px;
-    border: 4px solid #2b2d42;
-    padding: 20px;
-}
-
-
-.column {
+#grid {
+    width: 1000px;
+    height: 1000px;
     display: flex;
-    flex-basis: 100px;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
+
 
 .cell {
     width: 100px;
@@ -77,6 +70,11 @@ main {
     border: 1px solid #2b2d42;
 }
 
+
+
+.active {
+    display: block;
+}
 
 
 /* Footer */
