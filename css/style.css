@@ -78,6 +78,11 @@ main {
     background-color: #219ebc;
 }
 
+
+.bombed.clicked {
+    background-color: #d90429;
+}
+
 /* Footer */
 
 footer {
